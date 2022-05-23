@@ -119,6 +119,10 @@ body.open-menu {
     opacity: 1;
 }
 
+.menu.off {
+    display: none;
+}
+
 .menu-button.open {
     position: absolute;
     right: 24px;
@@ -221,9 +225,9 @@ figure img {
     padding-top: 2rem;
 }
 
-#formacao-content h2 {
-    /* color: white; */
-}
+/* #formacao-content h2 {
+    color: white;
+} */
 
 #cursos ul li {
     background-color: var(--white-with-alpha);
