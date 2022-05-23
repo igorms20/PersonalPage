@@ -201,6 +201,7 @@ figure img {
     padding: 1.2rem;
     border-radius: 8px;
     width: 130px;
+    transition: .3s ease-in;
 }
 
 .item-hab img {
@@ -216,6 +217,11 @@ figure img {
 .item-hab p:last-child {
     font-size: 0.82rem;
     color: rgb(159, 230, 255);
+}
+
+.item-hab:hover {
+    transform: translateY(-10px);
+    background-color: #6277ff;
 }
 
 #formacao {
