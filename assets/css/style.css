@@ -237,6 +237,10 @@ figure img {
     color: white;
 } */
 
+#cursos ul {
+    gap: 1rem;
+}
+
 #cursos ul li {
     background-color: var(--white-with-alpha);
     border-radius: 10px;
