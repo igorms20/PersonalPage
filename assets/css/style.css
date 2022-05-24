@@ -310,6 +310,7 @@ figure img {
 }
 
 #list-projetos {
+    max-width: 1310px;
     gap: 1.5rem;
 }
 
